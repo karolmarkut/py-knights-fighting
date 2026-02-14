@@ -84,7 +84,9 @@ KNIGHTS = {
         }
     }
 }
-
+class Knight:
+    def __init__(self, name):
+        name = self.name
 
 def battle(knightsConfig):
     # BATTLE PREPARATIONS:
