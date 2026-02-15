@@ -88,6 +88,11 @@ class Knight:
     def __init__(self, name):
         name = self.name
 
+    def weapon(self, name: str,power: int):
+        self.power = power
+        self.name = name
+
+
 def battle(knightsConfig):
     # BATTLE PREPARATIONS:
 
